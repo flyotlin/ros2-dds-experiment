@@ -21,7 +21,7 @@ class BaseSubscriber(Node):
 
     def log(self, msg):
         pass
-docker run -it -v /Users/flyotlin/Documents/Program/ros2-container:/src --name pub-node configured_ros2 bash
+
 
 class NumSubscriber(BaseSubscriber):
     publisher_name = 'num_subscriber'

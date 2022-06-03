@@ -43,6 +43,7 @@ def get_total_time_and_success_num(path: str):
 
     return total_delivery_time, successfully_delivered_msg_num
 
+
 def get_average_msg_delivery_time(path: str) -> float:
     total_delivery_time, successfully_delivered_msg_num = get_total_time_and_success_num(path)
 
